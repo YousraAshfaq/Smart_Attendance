@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\SmartAttendance\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\SmartAttendance\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_09342b4b76bae011e582b7bf233b828818c962aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SmartAttendance\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bfe995a85264a0af7b02fbcc2f406941bd8f8b85">
+        <dex dex="C:\SmartAttendance\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_99721b48ca4367f02c78c9dd8563fc85266c7c03\classes.dex" />
+    </item>
+
+</items>

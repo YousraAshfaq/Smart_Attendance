@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.smartattendance">
+
+
+    <application android:theme="@style/AppTheme" android:supportsRtl="true" android:label="SmartAttendance" android:icon="@mipmap/ic_launcher" android:allowBackup="true">
+
+    <activity android:name=".AppBase">
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+    </intent-filter>
+
+    </activity>
+
+    <activity android:name=".profile_activity" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".ViewAttendance" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".Student_Registartion" android:parentActivityName=".profile_activity"/>
+
+    <activity android:name=".attendanceActivity" android:parentActivityName=".AppBase"/>
+
+    <activity android:label="@string/title_activity_settings" android:name=".SettingsActivity" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".About" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".Edit_Student" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".ATT" android:parentActivityName=".AppBase"/>
+
+    <activity android:name=".att3" android:parentActivityName=".AppBase"/>
+</application>
+
+</manifest>
